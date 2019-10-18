@@ -122,8 +122,8 @@ size_t my_str_capacity(const my_str_t *str) {
 
 //! Повертає булеве значення, чи стрічка порожня:
 char my_str_empty(const my_str_t *str) {
-	if (str->size_m == 0) return 0;
-	else return -1;
+	if (str->size_m == 0) return 1;
+	else return 0;
 }
 
 //!===========================================================================
